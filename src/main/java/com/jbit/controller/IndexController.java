@@ -14,7 +14,11 @@ public class IndexController {
 		Map<String,Object> map = new HashMap<String,Object>();
 		map.put("code", "1000");
 		map.put("msg", "SUCCESS");
-		map.put("data", "第一次条测试 Git"); 
+		map.put("data", "第一次条测试 Git");
+		map.put("test01", "test001"); 
+		map.put("test002", "test002");
+		map.put("test003", "test003");
+		map.put("test004", "test004");
 		return map;
 	}
 	
