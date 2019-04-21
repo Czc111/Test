@@ -17,6 +17,7 @@ public class IndexController {
 		map.put("data", "第一次条测试 Git");
 		map.put("test01", "test001"); 
 		map.put("test002", "test002");
+		map.put("test003", "test003");
 		return map;
 	}
 	
